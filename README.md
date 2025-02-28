@@ -21,6 +21,23 @@ This project is aimed at analyzing sentiment from restaurant reviews using natur
 - **Matplotlib/Seaborn**: For data visualization (Word Cloud).
 - **Jupyter Notebook**: For developing and testing the models interactively.
 
+## Usages
+
+-  Preprocessing Data: Clean and prepare the text data by removing unwanted characters, tokenizing the words, and applying lemmatization.
+-  Training the Model: You can use models like Logistic Regression, SVM, or deep learning-based approaches like LSTM for sentiment classification.
+-  Evaluating the Model: The model will output metrics such as accuracy, confusion matrix, precision, recall, and F1 score to evaluate its performance
+-   Predicting Sentiments: Once the model is trained, you can input new restaurant reviews and get predictions on whether they are positive, negative, or neutral
+
+## Results
+-  Accuracy: 76%
+-  Precision: 61%
+-  Recall: 71%
+-  F1 Score: 68%
+## Future Work
+-  Improve Model: You can experiment with other models such as XGBoost, or fine-tune deep learning models for better accuracy.
+-  Deploy the Model: Consider deploying the model as a web service or integrating it with a restaurant review website.
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -38,18 +55,4 @@ pip install pandas numpy scikit-learn nltk seaborn matplotlib
 ### Cloning repository
 git clone https://github.com/LetsoelaAndries/HexSoftwares_Sentiment_analysis.git
 
-## Usages
 
--  Preprocessing Data: Clean and prepare the text data by removing unwanted characters, tokenizing the words, and applying lemmatization.
--  Training the Model: You can use models like Logistic Regression, SVM, or deep learning-based approaches like LSTM for sentiment classification.
--  Evaluating the Model: The model will output metrics such as accuracy, confusion matrix, precision, recall, and F1 score to evaluate its performance
--   Predicting Sentiments: Once the model is trained, you can input new restaurant reviews and get predictions on whether they are positive, negative, or neutral
-
-## Results
--  Accuracy: 76%
--  Precision: 
--  Recall:
--  F1 Score:
-## Future Work
--  Improve Model: You can experiment with other models such as XGBoost, or fine-tune deep learning models for better accuracy.
--  Deploy the Model: Consider deploying the model as a web service or integrating it with a restaurant review website.
